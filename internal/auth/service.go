@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/tenajuro12/chat-grpc/service_auth/pkg/auth_v1"
+	"github.com/tenajuro12/chat-grpc/pkg/auth_v1"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"golang.org/x/crypto/bcrypt"
